@@ -1,0 +1,43 @@
+.form1 {
+    position: relative;
+    width: 40%;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.form-main {
+    width: 250px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-list input{
+    max-width: 100%;
+    border-radius: 4px;
+    height: 20px;
+    background-color: gainsboro;
+    border: 0;
+}
+.form-list{
+   display: flex;
+   margin-bottom: 10px;
+
+}
+.form-item {
+    flex: 1;
+    margin-top: 5px;
+}
+
+.button button{
+    margin: 10px 60px;
+    height: 30px;
+    width: 150px;
+    background-color: #8c0025;
+    color: #ffff;
+    border-radius: 5px;

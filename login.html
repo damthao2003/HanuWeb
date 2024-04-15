@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>html form</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="js/login.js">
+    </head>
+    <body>
+        <div class="form1">
+            <h3 style="color: #8c0025; text-align: center; ">ĐĂNG NHẬP</h3>
+            <div class="form-main">
+                <form action="" method="get" class="">
+                    <div class="form-list">
+                        <div class="form-item"> <label for="">Họ tên: </label > </div>
+                        <div class="form-item">
+                              <input type="text" id="name" name="name" pattern="[a-z]{1-15}" placeholder="Nhập họ tên" required>
+                          </div>
+                    </div >
+                    <div class="form-list">
+                        <div class="form-item"><label for="email">Email: </label>  </div>
+                        <div class="form-item">
+                            <input type="email" name="email" id="email" placeholder="Nhập email" required>
+                        </div>
+                    </div>
+                    <div class="form-list">
+                        <div class="form-item"> <label for="lname">Mật khẩu: </label> </div>
+                        <div class="form-item">
+                            <input type="password" name="password" id="password" placeholder="Nhập mật khẩu" required>
+                        </div>
+                    </div>
+                    <p id="baoloi" style="color: black;"></p>
+                    <div class="button">
+                        <button onclick="send()">Đăng Nhập</button>
+                    </div>
+                </form>
+                <a href="sign_up.html">Đăng ký</a>
+            </div>    
+        </div> 
+    </body>
+</html>
